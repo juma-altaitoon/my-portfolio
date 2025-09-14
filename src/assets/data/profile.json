@@ -1,0 +1,30 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "tagline": "Building beautiful and functional web applications.",
+  "bio": "A passionate software developer with a focus on full-stack development. I enjoy solving complex problems and creating intuitive user experiences. My skills include Python, JavaScript, and various frameworks.",
+  "location": "New York, USA",
+  "avatar": "https://placehold.co/150x150/5B21B6/FFFFFF?text=JD",
+  "skills": [
+    "Python",
+    "JavaScript",
+    "Django",
+    "React",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "SQL",
+    "Git",
+    "REST APIs"
+  ],
+  "interests": [
+    "Machine Learning",
+    "UX Design",
+    "Open Source",
+    "Cloud Computing"
+  ],
+  "goals": "My short-term goal is to contribute to a major open-source project. My long-term goal is to lead a team of talented developers and build innovative products.",
+  "githubUrl": "https://github.com/johndoe",
+  "linkedinUrl": "https://www.linkedin.com/in/johndoe",
+  "websiteUrl": "https://johndoe.com"
+}

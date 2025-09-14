@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Portfolio Website",
+    "slug": "portfolio-website",
+    "description": "A modern, responsive portfolio site built with React and Tailwind CSS. It features dynamic routing and a clean, minimalist design.",
+    "techStack": ["React", "Tailwind CSS", "Vite", "JavaScript", "React-Router-DOM"],
+    "thumbnail": "https://placehold.co/400x250/333/FFF?text=Portfolio+Site",
+    "media": ["https://placehold.co/800x600/333/FFF?text=Screenshot+1", "https://placehold.co/800x600/333/FFF?text=Screenshot+2"],
+    "demoUrl": "#",
+    "repoUrl": "https://github.com/johndoe/my-portfolio"
+  },
+  {
+    "title": "Task Management App",
+    "slug": "task-management-app",
+    "description": "A full-stack application for managing daily tasks. It includes user authentication, task creation, and real-time updates.",
+    "techStack": ["Django", "React", "Python", "PostgreSQL", "Django REST Framework", "Docker"],
+    "thumbnail": "https://placehold.co/400x250/333/FFF?text=Task+App",
+    "media": ["https://placehold.co/800x600/333/FFF?text=Screenshot+1", "https://placehold.co/800x600/333/FFF?text=Screenshot+2"],
+    "demoUrl": "#",
+    "repoUrl": "https://github.com/johndoe/task-app"
+  },
+  {
+    "title": "E-commerce Backend",
+    "slug": "ecommerce-backend",
+    "description": "A robust and scalable e-commerce API built with Django REST Framework. It handles products, orders, and user management.",
+    "techStack": ["Django REST Framework", "Python", "PostgreSQL", "Celery", "Redis", "JWT"],
+    "thumbnail": "https://placehold.co/400x250/333/FFF?text=E-commerce+API",
+    "media": ["https://placehold.co/800x600/333/FFF?text=Screenshot+1", "https://placehold.co/800x600/333/FFF?text=Screenshot+2"],
+    "demoUrl": "#",
+    "repoUrl": "https://github.com/johndoe/ecommerce-api"
+  }
+]
