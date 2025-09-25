@@ -1,30 +1,90 @@
 {
-  "firstName": "John",
-  "lastName": "Doe",
-  "tagline": "Building beautiful and functional web applications.",
-  "bio": "A passionate software developer with a focus on full-stack development. I enjoy solving complex problems and creating intuitive user experiences. My skills include Python, JavaScript, and various frameworks.",
-  "location": "New York, USA",
-  "avatar": "https://placehold.co/150x150/5B21B6/FFFFFF?text=JD",
+  "firstName": "Juma",
+  "lastName": "Altaitoon",
+  "tagline": "Software Engineer | Cybersecurity | ML",
+  "bio": "A passionate software developer with a focus on full-stack development, cybersecurity, and machine learning. I enjoy solving complex problems and creating innovative solutions. My skills span from application development to securing systems and leveraging data science.",
+  "location": "Kingdom of Bahrain",
+  "avatar": "Portfolio_avatar.png",
   "skills": [
-    "Python",
-    "JavaScript",
-    "Django",
-    "React",
-    "HTML5",
-    "CSS3",
-    "Tailwind CSS",
-    "SQL",
-    "Git",
-    "REST APIs"
+    {
+      "domain": "Software Development",
+      "items": [
+        "Python",
+        "JavaScript",
+        "Django",
+        "React",
+        "HTML5",
+        "CSS3",
+        "Material UI",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "MongoDB",
+        "REST APIs"
+      ]
+    },
+    {
+      "domain": "Cybersecurity",
+      "items": [
+        "Network Security",
+        "Secure Software Development Lifecycle (SSDLC)",
+        "Linux Administration",
+        "Windows Administration"
+      ]
+    },
+    {
+      "domain": "Machine Learning",
+      "items": [
+        "Amazon Sagemaker",
+        "PyTorch",
+        "Scikit-learn",
+        "Data Analysis",
+        "Model Deployment"
+      ]
+    },
+    {
+      "domain": "Cloud Computing",
+      "items": [
+        "AWS",
+        "Docker",
+        "CI/CD"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Machine Learning - Specialty",
+      "issuer": "Amazon Web Services (AWS)",
+      "description": "Validates expertise in building, training, tuning, and deploying machine learning models on AWS Cloud.",
+      "badge":"certifications/AWS_ML_Specialty.png"
+    },
+    {
+      "title": "GIAC Certified Incident Handler (GCIH)",
+      "issuer": "GIAC",
+      "description": "Focuses on detecting, responding to, and resolving security incidents using real-world tools and techniques.",
+      "badge":"certifications/GCIH_badge.png"
+    },
+    {
+      "title": "GIAC Security Essentials (GSEC)",
+      "issuer": "GIAC",
+      "description": "Demonstrates hands-on knowledge of information security principles, including access control, cryptography, and network defense.",
+      "badge":"certifications/GSEC_badge.png"
+    },
+    {
+      "title": "GIAC Foundational Cybersecurity Technologies (GFACT)",
+      "issuer": "GIAC",
+      "description": "Covers core computing, networking, OS, and security fundamentals for entry-level cybersecurity professionals.",
+      "badge":"certifications/GFACT_badge.png"
+    }
   ],
   "interests": [
     "Machine Learning",
-    "UX Design",
-    "Open Source",
-    "Cloud Computing"
+    "Football",
+    "Cloud Computing",
+    "Cybersecurity Research"
   ],
+  "email": "juma.altaitoon@gmail.com",
   "goals": "My short-term goal is to contribute to a major open-source project. My long-term goal is to lead a team of talented developers and build innovative products.",
-  "githubUrl": "https://github.com/johndoe",
-  "linkedinUrl": "https://www.linkedin.com/in/johndoe",
+  "githubUrl": "https://github.com/juma-altaitoon",
+  "linkedinUrl": "https://www.linkedin.com/in/juma-altaitoon",
   "websiteUrl": "https://johndoe.com"
 }

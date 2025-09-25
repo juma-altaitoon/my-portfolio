@@ -1,32 +1,32 @@
 [
   {
-    "title": "Portfolio Website",
+    "title": "Personal Portfolio Website",
     "slug": "portfolio-website",
-    "description": "A modern, responsive portfolio site built with React and Tailwind CSS. It features dynamic routing and a clean, minimalist design.",
-    "techStack": ["React", "Tailwind CSS", "Vite", "JavaScript", "React-Router-DOM"],
+    "description": "A modern, frontend, responsive portfolio site built with React and Tailwind CSS. It features dynamic routing and a clean, minimalist design.",
+    "techStack": ["React", "Tailwind CSS", "Vite", "JavaScript", "React-Router"],
     "thumbnail": "https://placehold.co/400x250/333/FFF?text=Portfolio+Site",
     "media": ["https://placehold.co/800x600/333/FFF?text=Screenshot+1", "https://placehold.co/800x600/333/FFF?text=Screenshot+2"],
     "demoUrl": "#",
-    "repoUrl": "https://github.com/johndoe/my-portfolio"
+    "repoUrl": "#"
   },
   {
-    "title": "Task Management App",
-    "slug": "task-management-app",
-    "description": "A full-stack application for managing daily tasks. It includes user authentication, task creation, and real-time updates.",
-    "techStack": ["Django", "React", "Python", "PostgreSQL", "Django REST Framework", "Docker"],
-    "thumbnail": "https://placehold.co/400x250/333/FFF?text=Task+App",
-    "media": ["https://placehold.co/800x600/333/FFF?text=Screenshot+1", "https://placehold.co/800x600/333/FFF?text=Screenshot+2"],
-    "demoUrl": "#",
-    "repoUrl": "https://github.com/johndoe/task-app"
+    "title": "AI Travel Planner",
+    "slug": "ai-travel-planner",
+    "description": "AI Travel Planner is a full-stack M.E.R.N (MongoDB, Express, React, Node.js) web application designed to help users easily plan trips with AI-generated itineraries. The platform streamlines travel planning, offering personalized recommendations, authentication, and interactive features.",
+    "techStack": ["JavaScript", "React", "Nodejs", "MongoDB Atlas", "Express", "Material UI", "Vercel", "Github Models API", "OpenAI API", "Nodemailer", "JWT Authentication"],
+    "thumbnail": "projects/ai-travel-planner/Screenshot1.png",
+    "media": [ "projects/ai-travel-planner/Screenshot1.png", "projects/ai-travel-planner/Screenshot2.png", "projects/ai-travel-planner/Screenshot3.png", "projects/ai-travel-planner/Screenshot4.png" ],
+    "demoUrl": "https://ai-travel-planner-frontend-indol.vercel.app/",
+    "repoUrl": "https://github.com/juma-altaitoon/ai-travel-planner"
   },
   {
-    "title": "E-commerce Backend",
-    "slug": "ecommerce-backend",
-    "description": "A robust and scalable e-commerce API built with Django REST Framework. It handles products, orders, and user management.",
-    "techStack": ["Django REST Framework", "Python", "PostgreSQL", "Celery", "Redis", "JWT"],
-    "thumbnail": "https://placehold.co/400x250/333/FFF?text=E-commerce+API",
-    "media": ["https://placehold.co/800x600/333/FFF?text=Screenshot+1", "https://placehold.co/800x600/333/FFF?text=Screenshot+2"],
+    "title": "Portfolio/Profile using Streamlit",
+    "slug": "streamlit-portfolio",
+    "description": "A Streamlit portfolio project to familiarize myself with the Streamlit framework in preparation for upcoming ML/AI projects with streamlit.",
+    "techStack": ["Python", "Streamlit"],
+    "thumbnail": "projects/streamlit-portfolio/Screenshot1.png",
+    "media": ["projects/streamlit-portfolio/Screenshot1.png", "projects/streamlit-portfolio/Screenshot2.png"],
     "demoUrl": "#",
-    "repoUrl": "https://github.com/johndoe/ecommerce-api"
+    "repoUrl": "#"
   }
 ]

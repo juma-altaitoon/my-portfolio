@@ -3,7 +3,7 @@ import profile from "../assets/data/profile.json";
 import * as THREE from 'three'
 import { Link } from 'react-router';
 
-export default function Home(){
+export default function Home2(){
   const threeCanvasRef = useRef();
 
   useEffect(() => {
@@ -116,7 +116,7 @@ export default function Home(){
           A visual experience built with Three.js.
         </p>
       </div> */}
-      <div className="absolute inset-0 z-10 p-8 text-center bg-transparent justify-center items-center text-white rounded-xl shadow-lg m-4 max-h-screen dark">
+      <div className="absolute inset-0 z-10 p-8 text-center bg-transparent justify-center items-center text-white rounded-xl shadow-lg m-4 max-h-screen">
         <img
             src={profile.avatar}
             alt="Profile Avatar"
@@ -135,7 +135,7 @@ export default function Home(){
             </button>
           </Link>
           <Link to={"/projects"}>
-            <button className='mx-4 text-xl font-semibold bg-blue-700 p-4 border-2 rounded-xl hover:p-5 hover:bg-blue-600'>
+            <button className='mx-4 text-xl font-semibold bg-blue-700 p-4 border-2 rounded-4xl hover:p-5 hover:bg-blue-600'>
               Projects
             </button>
           </Link>

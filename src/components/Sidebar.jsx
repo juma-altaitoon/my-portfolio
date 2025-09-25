@@ -1,20 +1,37 @@
 import { Link } from 'react-router';
-import avatar from '../assets/Portfolio_avatar.png';
+import profile from "../assets/data/profile.json";
+import { MdOutlineEmail } from "react-icons/md";
+import { SlLocationPin } from "react-icons/sl";
+import { VscGithubInverted } from "react-icons/vsc";
+import { FaLinkedin } from "react-icons/fa";
+import { VscBrowser } from "react-icons/vsc";
 
 export default function Sidebar() {
 
     return (
-        <aside className="hidden md:block w-64 bg-blue-900 text-white p-4 rounded-xl shadow-lg m-4 z-50">
-            <img src={avatar} alt="Juma's Avatar" className='rounded-full w-24 h-24 mb-4' />
-            <h2 className='text-lg font-bold text-gray-300 mb-2'>Juma Altaitoon</h2>
-            <p className='text-sm text-grey-600 mb-4'>Full Stack Engineer | Cybersecurity | ML</p>
-            <div className='block py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors duration-200'>
-                <p>Email: juma.altaitoon@gmail.com</p>
-                <p>Location: Kingdom of Bahrain (BH)</p>
-                <p>LinkedIn: <a href='https://linkedin.com/in/juma-altaitoon' className='text-blue-500'>LinkedIn.com</a></p>
-                <p>Github: <a href='https://github.com/juma-altaitoon' className='text-blue-500'>github.com</a></p>
+        <aside className="hidden md:block h-140 w-60 bg-blue-700 hover:bg-blue-800 text-white p-3 rounded-4xl shadow-lg shadow-blue-500 mx-2 space-y-4 sticky overflow-hidden">
+            <img src={"Portfolio_avatar.png"} alt={`${profile.firstName}'s Avatar`} className='rounded-full w-32 h-32 my-4 mx-auto' />
+            <h2 className='text-lg font-bold mb-2 text-center'>{profile.firstName} {profile.lastName}</h2>
+            <p className='text-sm mb-4'>{profile.tagline}</p>
+            
+            <p className='flex justify-start'><SlLocationPin size={25} className='mr-2'/>{profile.location} </p>
+            <p className='flex justify-start'><MdOutlineEmail size={25} className='mr-2' />{profile.email} </p>
+            <div className='flex flex-wrap justify-start space-y-4 space-x-6'>
+                {profile.linkedinUrl && (
+                    <a href={profile.linkedinUrl} target="_blank" rel="noopener noreferrer" ><FaLinkedin size={60} /></a>    
+                )}
+                {profile.githubUrl && (
+                    <a href={profile.githubUrl} target="_blank" rel="noopener noreferrer" ><VscGithubInverted size={60}/></a>
+                )}
+                {profile.websiteUrl && (
+                     <a href={profile.websiteUrl} target="_blank" rel="noopener noreferrer" ><VscBrowser size={60}/></a>     
+                )}
+                <Link to={"/profile"} className='my-auto hover:underline font-bold'>more...</Link>
+                {/* <a href={profile.linkedinUrl} target="_blank" rel="noopener noreferrer" ><FaLinkedin size={80} /></a>
+                <a href={profile.githubUrl} target="_blank" rel="noopener noreferrer" ><VscGithubInverted size={80}/></a>
+                <a href={profile.websiteUrl} target="_blank" rel="noopener noreferrer" ><VscBrowser size={80}/></a> */}
             </div>
-            <Link to={"/profile"} className='hover-underline'>more...</Link>
+
         </aside>
     )
 }
