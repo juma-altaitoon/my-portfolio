@@ -4,7 +4,7 @@
   "tagline": "Software Engineer | Cybersecurity | ML",
   "bio": "A passionate software developer with a focus on full-stack development, cybersecurity, and machine learning. I enjoy solving complex problems and creating innovative solutions. My skills span from application development to securing systems and leveraging data science.",
   "location": "Kingdom of Bahrain",
-  "avatar": "/Portfolio_avatar.png",
+  "avatar": "Portfolio_avatar.png",
   "skills": [
     {
       "domain": "Software Development",
@@ -81,8 +81,8 @@
     "Cybersecurity Research"
   ],
   "email": "juma.altaitoon@gmail.com",
-  "goals": "My short-term goal is to contribute to a major open-source project. My long-term goal is to lead a team of talented developers and build innovative products.",
+  "goals": "My short-term goal is to contribute to a major project. My long-term goal is to lead a team of talented developers and build innovative products.",
   "githubUrl": "https://github.com/juma-altaitoon",
   "linkedinUrl": "https://www.linkedin.com/in/juma-altaitoon",
-  "websiteUrl": "https://johndoe.com"
+  "websiteUrl": "#"
 }
