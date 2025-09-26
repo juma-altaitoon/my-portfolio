@@ -47,14 +47,14 @@ export default function ProjectDetails() {
                             <>
                                 <button 
                                     onClick={prevMedia} 
-                                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-transparent text-blue-700 text-2xl font-bold p-2 rounded-full"
+                                    className="absolute left-1 top-1/2 -translate-y-1/2 bg-transparent text-blue-700 text-2xl font-bold p-2 rounded-full"
                                     aria-label="Previous Image"
                                 >
                                     &#8249;
                                 </button>
                                 <button 
                                     onClick={nextMedia} 
-                                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-transparent text-blue-700 text-2xl font-bold p-2 rounded-full"
+                                    className="absolute right-1 top-1/2 -translate-y-1/2 text-blue-600 text-2xl font-bold px-2 pb-1 rounded-full text-center"
                                     aria-label="Next Image"
                                 >
                                     &#8250;

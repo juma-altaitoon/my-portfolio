@@ -4,8 +4,8 @@
     "slug": "portfolio-website",
     "description": "A modern, frontend, responsive portfolio site built with React and Tailwind CSS. It features dynamic routing and a clean, minimalist design.",
     "techStack": ["React", "Tailwind CSS", "Vite", "JavaScript", "React-Router"],
-    "thumbnail": "https://placehold.co/400x250/333/FFF?text=Portfolio+Site",
-    "media": ["https://placehold.co/800x600/333/FFF?text=Screenshot+1", "https://placehold.co/800x600/333/FFF?text=Screenshot+2"],
+    "thumbnail": "projects/portfolio-website/Screenshot1.png",
+    "media": [ "projects/portfolio-website/Screenshot1.png", "projects/portfolio-website/Screenshot2.png" ],
     "demoUrl": "#",
     "repoUrl": "#"
   },
