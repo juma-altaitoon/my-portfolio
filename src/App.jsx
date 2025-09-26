@@ -8,7 +8,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import ProjectDetails from './pages/ProjectDetails';
-import Home2 from './pages/Home2';
 
 export default function App() {
 
@@ -26,7 +25,6 @@ export default function App() {
             <Route path='/projects/:slug' element={<ProjectDetails />} />
             <Route path='/case-study' element={<CaseStudy/>} />
             <Route path='/contact' element={<Contact/>} />
-            <Route path='/home' element={<Home2/>} />  
           </Routes>
           </div>
         </main>
