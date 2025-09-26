@@ -4,7 +4,7 @@
   "tagline": "Software Engineer | Cybersecurity | ML",
   "bio": "A passionate software developer with a focus on full-stack development, cybersecurity, and machine learning. I enjoy solving complex problems and creating innovative solutions. My skills span from application development to securing systems and leveraging data science.",
   "location": "Kingdom of Bahrain",
-  "avatar": "Portfolio_avatar.png",
+  "avatar": "/Portfolio_avatar.png",
   "skills": [
     {
       "domain": "Software Development",
@@ -36,9 +36,7 @@
       "items": [
         "Amazon Sagemaker",
         "PyTorch",
-        "Scikit-learn",
-        "Data Analysis",
-        "Model Deployment"
+        "Scikit-learn"
       ]
     },
     {

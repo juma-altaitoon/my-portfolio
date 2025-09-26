@@ -14,18 +14,18 @@
     "slug": "ai-travel-planner",
     "description": "AI Travel Planner is a full-stack M.E.R.N (MongoDB, Express, React, Node.js) web application designed to help users easily plan trips with AI-generated itineraries. The platform streamlines travel planning, offering personalized recommendations, authentication, and interactive features.",
     "techStack": ["JavaScript", "React", "Nodejs", "MongoDB Atlas", "Express", "Material UI", "Vercel", "Github Models API", "OpenAI API", "Nodemailer", "JWT Authentication"],
-    "thumbnail": "projects/ai-travel-planner/Screenshot1.png",
-    "media": [ "projects/ai-travel-planner/Screenshot1.png", "projects/ai-travel-planner/Screenshot2.png", "projects/ai-travel-planner/Screenshot3.png", "projects/ai-travel-planner/Screenshot4.png" ],
+    "thumbnail": "/projects/ai-travel-planner/Screenshot1.png",
+    "media": [ "/projects/ai-travel-planner/Screenshot1.png", "/projects/ai-travel-planner/Screenshot2.png", "/projects/ai-travel-planner/Screenshot3.png", "/projects/ai-travel-planner/Screenshot4.png" ],
     "demoUrl": "https://ai-travel-planner-frontend-indol.vercel.app/",
     "repoUrl": "https://github.com/juma-altaitoon/ai-travel-planner"
   },
   {
     "title": "Portfolio/Profile using Streamlit",
     "slug": "streamlit-portfolio",
-    "description": "A Streamlit portfolio project to familiarize myself with the Streamlit framework in preparation for upcoming ML/AI projects with streamlit.",
+    "description": "A Streamlit portfolio project to familiarize myself with the Streamlit framework in preparation for an upcoming ML/AI projects with streamlit.",
     "techStack": ["Python", "Streamlit"],
-    "thumbnail": "projects/streamlit-portfolio/Screenshot1.png",
-    "media": ["projects/streamlit-portfolio/Screenshot1.png", "projects/streamlit-portfolio/Screenshot2.png"],
+    "thumbnail": "/projects/streamlit-portfolio/Screenshot1.png",
+    "media": ["/projects/streamlit-portfolio/Screenshot1.png", "/projects/streamlit-portfolio/Screenshot2.png"],
     "demoUrl": "#",
     "repoUrl": "#"
   }

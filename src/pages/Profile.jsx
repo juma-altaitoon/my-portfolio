@@ -5,14 +5,14 @@ import profile from "../assets/data/profile.json";
 export default function Profile() {
 
     return (
-        <div className="p-4 bg-black rounded-xl shadow-lg">
+        <div className="p-4 bg-transparent rounded-xl shadow-lg">
             <h1 className="text-3xl text-center font-bold text-white mb-4">About Me</h1>
             <div className="text-gray-300 h-125 space-y-4 overflow-y-scroll mt-10">
                 <div className="flex fle-wrap">
                     <div className="flex flex-wrap mt-4 w-1/2 px-2">
                         <p className="text-lg font-semibold font-mono">{profile.bio}</p>
                         {/* Interests */}
-                        <div className="bg-black rounded-lg px-2">
+                        <div className="px-2">
                             {/* <h2 className="text-2xl font-bold text-blue-400 mb-4">Interests & Goals</h2> */}
                             <h2 className="mb-2 text-2xl font-semibold text-blue-400">Interests</h2>
                             <ul className="list-disc pl-6 space-y-2 mb-4"> 

@@ -7,6 +7,7 @@ export default function Home(){
   const threeCanvasRef = useRef();
 
   useEffect(() => {
+    
     // --- Three.js Scene Setup ---
     let camera, scene, renderer;
     let mouseX = 0, mouseY = 0;

@@ -12,7 +12,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="p-8 text-center bg-black rounded-xl shadow-lg m-4">
+        <div className="p-8 text-center bg-transparent rounded-xl shadow-lg m-4">
             <h1 className="text-3xl font-bold text-white mb-4">Contact Me</h1>
             <p className="text-lg text-gray-300 mb-6">
                 Reach out to me via the form below, email, or through my social media profiles.
@@ -65,7 +65,7 @@ export default function Contact() {
                 </div>
                 <button 
                     type="submit"
-                    className="w-full py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-800 transition-colors duration-200"
+                    className="w-1/4 text-xl py-4 bg-blue-700 text-white font-bold rounded-lg hover:bg-blue-800 transition-colors duration-200"
                     disabled={state.submitting}
                 >
                     Send Message

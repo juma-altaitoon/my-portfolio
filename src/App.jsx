@@ -14,7 +14,7 @@ export default function App() {
 
   return(
     <>
-      <div className='min-h-screen bg-black text-grey-200 flex flex-col font-sans'>
+      <div className='min-h-screen bg-gradient-to-b from-black to-blue-950 text-grey-200 flex flex-col font-sans'>
         <Navbar/>          
         <main className='container mx-auto flex-1 flex flex-col md:flex-row py-1 px-2'>
           <Sidebar/>
