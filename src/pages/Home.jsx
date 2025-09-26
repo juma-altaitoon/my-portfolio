@@ -107,7 +107,7 @@ export default function Home(){
   }, []);
 
   return (
-    <section className="relative w-full h-[85vh] rounded-4xl overflow-hidden shadow-lg">
+    <section className="mt-6 relative w-full h-[85vh] rounded-4xl overflow-hidden shadow-lg">
       <canvas ref={threeCanvasRef} className="absolute inset-0 z-0 w-full h-full"></canvas>
       
       <div className="absolute inset-0 z-10 p-8 text-center bg-transparent justify-center items-center text-white rounded-xl shadow-lg m-4 max-h-screen dark">
